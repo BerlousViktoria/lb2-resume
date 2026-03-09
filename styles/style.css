@@ -44,6 +44,22 @@ body {
     font-size: 14px;
 }
 
+/* Навігація на лівій сторіні */
+
+.site-nav-item a {
+    border: 2px solid rgb(83, 82, 82);
+    border-radius: 3px;
+    background-color: rgb(83, 82, 82);
+    color: bisque;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 23%;
+}
+
+.site-nav-item a:hover {
+    color: aliceblue;
+}
+
 .left-side li {
     padding: 3px 10px;
     list-style: none;
@@ -89,6 +105,15 @@ body {
     color: rgb(121, 119, 119);
     font-size: small;
 }
+
+/* Меню-посилання */
+.nav-menu a {
+    color: black;
+    padding: 5px;
+    
+}
+
+
 /* Кінець правої сторони */
 
 
