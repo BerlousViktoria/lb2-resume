@@ -9,17 +9,34 @@
 <body>
     <div class="page-container">
         <!-- Ліворуч -->
-        <div class="left-side">
+        <aside class="left-side">
             <!-- Фото -->
-            <img class="photo" src="photo-resume.jpg" alt="Фотографія авторки сторінки">
+            <img class="photo" src="photo/photo-resume.jpg" alt="Фотографія авторки сторінки">
             <!-- Кінець фото -->
+            <!-- Навігація -->
+             <nav>
+                <ul class = "site-nav">
+                    <li class = "site-nav-item">
+                        <a href="lb1-crm/crm_page.html">Лабораторна 1</a>
+                    </li>
+                    <li class = "site-nav-item">
+                        <a href="lb3/justin_beaver_page.html">Лабораторна 2</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="task_mriya/task_mriya.html">Практична 2</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="task_lemon/task_lemon.html">Практична 2.1</a>
+                    </li>
+                </ul>
+             </nav>
             <div class="personal-block">
                 <h3>Особисті дані</h3>
                 <ul>
                     <li><b>Ім'я</b></li>
                     <li>Вікторія Берлоус</li>
                     <li><b>Адреса</b></li>
-                    <li>вул. Північний бульвар, Івано-Франківськ</li>
+                    <address><li>вул. Північний бульвар, Івано-Франківськ</li></address>
                     <li><b>Gmail</b></li>
                     <li>berlousviktoria@gmail.com</li>
                     <li><b>Дата народження</b></li>
@@ -42,8 +59,18 @@
                 </ul>
             </div>
         <!-- Праворуч -->
-        </div><div class="right-side">
-            <h1>Берлоус Вікторія</h1>
+        </aside><main class="right-side">
+            <header><h1>Берлоус Вікторія</h1></header>
+            <!-- Меню-посилання -->
+            <nav class = "nav-menu">
+                <h3>Меню</h3>
+                <a href="#personal">Особисті дані</a>
+                <a href="#hobbies">Інтереси</a>
+                <a href="#langs">Мови</a>
+                <a href="#job_exp">Досвід роботи</a>
+                <a href="#educ">Освіта та кваліфікації</a>
+                <a href="#courses">Курси</a>
+            </nav>
             <h3>Досвід роботи</h3>
             <ul>
                 <li><i>У процесі накопичення досвіду та практичних навичок...</i></li>
@@ -73,7 +100,7 @@
                 <li><b>Розробляю за допомогою:</b></li>
                 <li><i>C++, Java, SQL, Python</i></li>
             </ul>
-        </div>
+        </main>
     </div>
 
 </body>
