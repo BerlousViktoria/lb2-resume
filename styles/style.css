@@ -34,6 +34,7 @@ body {
     
 }
 
+
 /* Ліва частина сторінки */
 .left-side {
     width: 30%;
@@ -43,6 +44,7 @@ body {
     vertical-align: top;
     font-size: 14px;
 }
+
 
 /* Навігація на лівій сторіні */
 
@@ -84,10 +86,12 @@ body {
     font-size: 16px;
 }
 
+
 .right-side h3 {
     padding: 20px 0 20px 0;
     text-align: left;
     border-bottom: 2px solid rgb(112, 112, 112);
+
 }
 
 .right-side h1 {
