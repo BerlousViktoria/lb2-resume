@@ -1,124 +1,130 @@
-/* Скидання стандартних налаштувань браузера*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Ліворуч -->
+        <aside class="left-side">
+            <!-- Фото -->
+            <img class="photo" src="photo/photo-resume.jpg" alt="Фотографія авторки сторінки">
+            <!-- Кінець фото -->
+            <!-- Навігація -->
+             <nav>
+                <ul class = "site-nav">
+                    <li class = "site-nav-item">
+                        <a href="lb1-crm/crm_page.html">Лабораторна 1</a>
+                    </li>
+                    <li class = "site-nav-item">
+                        <a href="lb3/justin_beaver_page.html">Лабораторна 2</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="task_mriya/task_mriya.html">Практична 2</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a href="task_lemon/task_lemon.html">Практична 2.1</a>
+                    </li>
+                </ul>
+             </nav>
+            <div class="personal-block">
+            <ul>
+                <li> <h3>Особисті дані</h3>
+                    <ul>
+                        <li><b>Ім'я</b></li>
+                        <li>Вікторія Берлоус</li>
+                        <li><b>Адреса</b></li>
+                        <address><li>вул. Північний бульвар, Івано-Франківськ</li></address>
+                        <li><b>Gmail</b></li>
+                        <li>berlousviktoria@gmail.com</li>
+                        <li><b>Дата народження</b></li>
+                        <li>01-04-2008</li>
+                    </ul>
+                </li>
+            </ul>        
+            </div>
+            <div class="intrests-block">
+            <ul>
+                <li> <h3>Інтереси</h3>
+                    <ul>
+                        <li>Вивчення нового та корисного</li>
+                        <li>Читання</li>
+                        <li>Відеоігри</li>
+                    </ul>
+                </li>
+            </ul>    
+            </div>
+            <div class="lang-block">
+            <ul>
+                <li> <h3>Мови</h3>
+                    <ul>
+                        <li><b>Англійська</b> - Середній рівень</li>
+                        <li><b>Українська</b> - Рідна мова</li>
+                    </ul>
+                </li>
+            </ul>   
+            </div>
+        <!-- Праворуч -->
+        </aside><main class="right-side">
+            <header><h1>Берлоус Вікторія</h1></header>
+            <!-- Меню-посилання -->
+            <nav class = "nav-menu">
+                <h3>Меню</h3>
+                <a href="#personal">Особисті дані</a>
+                <a href="#hobbies">Інтереси</a>
+                <a href="#langs">Мови</a>
+                <a href="#job_exp">Досвід роботи</a>
+                <a href="#educ">Освіта та кваліфікації</a>
+                <a href="#courses">Курси</a>
+            </nav>
+            <ul>
+                <li> <h3>Досвід роботи</h3>
+                    <ul>
+                        <li><i>У процесі накопичення досвіду та практичних навичок...</i></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li> <h3>Освіта та кваліфікації</h3>
+                    <ul>
+                        <li><b>Повна загальна середня освіта</b></li>
+                        <li><i>Ліцей №1 Івано-Франківської міської ради</i></li>
+                        <span class="date">2014-2023р</span>
+                        <li><b>Фахова передвища освіта</b></li>
+                        <li><i>ВСП "Фаховий коледж електронних приладів ІФНТУНГ"</i></li>
+                        <span class = "date">2023 - дотепер...</span>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li> <h3>Курси</h3>
+                    <ul>
+                        <li><b>Програмування на Python</b></li>
+                        <li><i>Курси "Logika"</i></li>
+                        <span class="date">2021-2022р</span>
+                        <li><b>Програмування на Java</b></li>
+                        <li><i>JavaRush(онлайн)</i></li>
+                        <span class = "date">2025р</span>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li> <h3>Навички</h3>
+                    <ul>
+                        <li><b>Використовую:</b></li>
+                        <li><i>Visual Studio Code, Visual Studio 2022, IntelliJ IDEA, MySQL, PostgreSQL</i></li>
+                        <li><b>Розробляю за допомогою:</b></li>
+                        <li><i>C++, Java, SQL, Python</i></li>
+                    </ul>
+                </li>
+            </ul>
 
-/* Стандартні заголовки */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    background-color: rgb(57, 57, 57);
-}
 
-.photo {
-    display: block;
-    margin: auto;
-    max-width: 70%;
-    height: auto;
-    padding: 15px;
-    border-radius: 100%;
-    filter: grayscale(0.8);
-}
-/* Кінець стандарнтих заголовків */
+        </main>
+    </div>
 
-
-/* Вміст лівої-правої частин сторінки */
-.page-container {
-    display: block;
-    max-width: 700px;
-    margin: 20px auto;
-    border: 5px solid gray;
-    background-color: rgb(51, 51, 51);
-    font-size: 0;
-    
-}
-
-
-/* Ліва частина сторінки */
-.left-side {
-    width: 30%;
-    background-color: rgb(51, 51, 51);
-    display: inline-block;
-    color: antiquewhite;    
-    vertical-align: top;
-    font-size: 14px;
-}
-
-.left-side li.title {
-    font-size: 17px;   
-}
-
-/* Навігація на лівій сторіні */
-
-.site-nav-item a {
-    border: 2px solid rgb(83, 82, 82);
-    border-radius: 3px;
-    background-color: rgb(83, 82, 82);
-    color: bisque;
-    color: aliceblue;
-    text-decoration: none;
-    margin: 23%;
-}
-
-.site-nav-item a:hover {
-    color: aliceblue;
-}
-
-.left-side li {
-    padding: 3px 10px;
-    list-style: none;
-    font-size: 14px;
-}
-
-.left-side h3 {
-    padding: 10px;
-    border-bottom: 1px solid bisque;
-}
-
-/* Кінець лівої частини сторінки */
-
-
-/* Права сторона */
-.right-side {
-    padding: 20px;
-    vertical-align: top;
-    width: 70%;
-    background-color: rgb(200, 200, 200);
-    display: inline-block;
-    font-size: 16px;
-}
-
-.right-side li.title {
-    font-size: 17px;
-}
-
-.right-side h3 {
-    padding: 20px 0 20px 0;
-    text-align: left;
-    border-bottom: 2px solid rgb(112, 112, 112);
-}
-
-.right-side h1 {
-    padding: 0 0 15px 0;
-    border-bottom: 2px solid rgb(112, 112, 112);
-}
-
-.right-side ul,
-.right-side li {
-    padding: 5px 0 0 0;
-    list-style: none;
-}
-
-.date {
-    color: rgb(121, 119, 119);
-    font-size: small;
-}
-
-/* Меню-посилання */
-.nav-menu a {
-    color: black;
-    padding: 5px;
-    
-}
-/* Кінець правої сторони */
+</body>
+</html>
