@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task3</title>
+    <style>
+        /* put here "displey: flex" because lines doesn't want to appear without it */
+        h1{
+            text-align: center;
+            display: flex;
+        }
+
+        h1::after,
+        h1::before{
+            content: "";
+            flex: 1;
+            border-bottom: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>TITLE</h1>
+</body>
+</html>
