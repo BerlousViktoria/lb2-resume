@@ -1,0 +1,46 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+}
+
+.section {
+    float: left;
+    background-color: rgb(181, 223, 248);
+    border: 0.2px white solid;
+    width: 16.5%;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 8px;
+}
+
+.left{
+    background-color: rgb(150, 210, 245);
+    float: left;
+    clear: both;
+    width: 25%;
+    color: white;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#company{
+    font-weight: bold;
+}
+
+.q {
+    background-color: rgb(150, 210, 245);
+    width: 16.5%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container_section{
+    float: left;
+    width: 100%;
+}
+

@@ -1,0 +1,68 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box{
+    margin: 50px auto;  
+    width: 250px;
+    border: 2px lightgray solid;
+    border-bottom: 4px springgreen solid;
+    border-top: 4px springgreen solid;
+    text-align: center;
+    overflow: hidden;
+}
+
+.top{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    color: springgreen;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.price{
+    float: left;
+    width: 100%;
+    background-color: springgreen;
+    color: white;
+    padding: 15px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.options{
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    color: gray;
+    width: 100%;
+    list-style: none;
+}
+
+.options li{
+    padding: 10px 0;
+}
+
+li:nth-child(2n){
+    background-color: #F2F2F2;
+}
+
+
+.button{
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.btn{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: small;
+    color: springgreen;
+    border: 2px springgreen solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
