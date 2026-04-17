@@ -86,7 +86,8 @@ body{
 
 .button{
     position: absolute;
-    right: 130px;
+    right: 0;
+    bottom: -70px;
     background: black;
     padding: 20px;    
 }
