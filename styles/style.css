@@ -31,7 +31,6 @@ body {
     border: 5px solid gray;
     background-color: rgb(200, 200, 200);
     font-size: 0;
-    
 }
 
 
@@ -86,7 +85,6 @@ body {
     font-size: 16px;
 }
 
-
 .right-side h3 {
     padding: 20px 0 20px 0;
     text-align: left;
@@ -117,14 +115,24 @@ body {
     
 }
 
+footer{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
+svg{
+    margin-top: 20px;
+    width: 24px;
+    height: 24px;
+    fill: rgb(0, 0, 0);
+    
+}
 
 /* End of the right side of the page */
-
-
-
-
-
-
-
-
-
